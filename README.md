@@ -1,5 +1,6 @@
 Mini project
-Develop a simple CRUD app using Rails
+
+    Develop a simple CRUD app using Rails
 
     Constraint:
 
