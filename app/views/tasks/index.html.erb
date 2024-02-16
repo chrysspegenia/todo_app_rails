@@ -17,7 +17,7 @@
     <% @tasks.each do |task| %>
       <tr>
         <td class="task-name"><%= task.name %></td>
-        <td><%= task.completed ? "Complete" : "Ongoing" %></td>
+        <td><span class="<%= task.completed ? 'task-complete' : 'task-ongoing'%>"><%= task.completed ? "Completed" : "Ongoing" %></span></td>
         <td><%= link_to "Show", task , class: "task-btn shadow"  %></td>
         <td><%= link_to "Edit", edit_task_path(task), class: "shadow task-btn"  %></td>
         <td><%= link_to "Delete", task, method: :delete, data: {confirm: "Are you sure?" }, class: "shadow task-btn"  %></td>
