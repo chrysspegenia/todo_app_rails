@@ -1,7 +1,7 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: todo_app
+    databaseName: todo_app_production
+    user: chrysspegenia
     plan: free
 
 services:
